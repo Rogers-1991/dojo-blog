@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-
 ReactDOM.render(
   <React.StrictMode>
+    {/* This 'App' component is being rendered to the DOM */}
     <App />
   </React.StrictMode>,
+  // The 'App' component is being rendered to the DOM at this position, the 'root' component.
   document.getElementById('root')
 );
 
